@@ -29,11 +29,11 @@ namespace MyCalcTests
         {
             int a = 2,
                 b = 2,
-                expected = 4,
+                expected = 0,
                 actual;
 
             Calculator1 calc = new();
-            actual = calc.Sum(a, b);
+            actual = calc.Subtraction(a, b);
             Assert.AreEqual(expected, actual);
         }
 
